@@ -1,0 +1,41 @@
+ nav{
+  width: 45rem;
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+ 
+ left:20rem;
+ margin-top: 7rem;
+ margin-left: 1rem;
+ 
+}
+
+
+
+.navbarbtn{
+  margin-right: 3rem;
+  margin-left: 1rem;
+  font-size: 5rem;
+  padding-top:0.5rem;
+  color:var(--color-primary);
+  border-radius:3rem;
+ 
+}
+.navBtn{
+  position:fixed;
+  background:rgba(0,0,0,0.4);
+  padding-top:0.5rem;
+  border-radius: 5rem;
+  backdrop-filter: blur(15px);
+  border: 1px solid var(--color-primary);
+}
+
+#active{
+  color: rgba(77,5,232,1);
+}
+
+
+

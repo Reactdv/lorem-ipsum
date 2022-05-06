@@ -1,0 +1,121 @@
+.reach__me__out{
+  text-align: center ;
+  margin-top:3rem;
+}
+
+
+.contact__wrap{
+  width:60rem;
+  
+  height:80rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:2rem;
+  
+}
+
+.sendme__email{
+  border:2px solid pink;
+  width:90%;
+  height:35rem;
+}
+
+.contact__apps{
+  
+  width:90%;
+  height:35rem;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: center;
+  
+  
+}
+
+.contact__contents{
+  width:14rem;
+  height:18rem;
+  background:var(--color-bg-variant);
+  border-radius: 1rem;
+  text-align: center;
+  line-height: 2rem;
+  
+}
+
+.contact__content__icon{
+  margin-top:4rem;
+  margin-bottom: 0;
+  font-size:2rem;
+}
+
+
+.sendme__email{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:3rem;
+  align-items:center;
+  border:none;
+  outline:none;
+  padding-top:3rem;
+}
+
+.sendme__email__content1,
+.sendme__email__content2,
+.sendme__email__content3{
+  width:30rem;
+  background:var(--color-bg-variant);
+  border-radius: 1.3rem;
+  font-size:2rem;
+  padding-left:17%;
+  border: 2px solid var(--color-primary);
+  outline:none;
+  color:white;
+}
+
+ .sendme__email__content1:focus{
+  border:none;
+  outline:none;
+ 
+ }
+ 
+.sendme__email__content2:focus{
+  border:none;
+  outline:none;
+}
+
+.sendme__email__content3:focus{
+  border:none;
+  outline:none;
+  
+}
+
+
+
+
+.sendme__email__content1{
+  flex:1;
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
+}
+.sendme__email__content2{
+  
+  flex:1;
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
+}
+.sendme__email__content3{
+  
+  flex:3;
+  
+}
+
+.sendme__email__btn{
+  font-size:2rem;
+  background:var(--color-bg-variant);
+  border-radius: 10px;
+  padding:1rem;
+  background:var(--color-primary);
+}

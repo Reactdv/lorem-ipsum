@@ -1,0 +1,72 @@
+#portfolio{
+  
+   display:grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-row-gap: 2rem;
+  grid-auto-flow: dense;
+  
+  
+}
+
+
+.portfolio__wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+  background:var(--color-bg-variant);
+  width:17rem;
+  height:21rem;
+  border-radius: 2rem;
+  padding:2rem;
+  line-height:2rem;
+  margin:3rem;
+  overflow:hidden;
+  gap:5px;
+  
+}
+
+.portfolio__btn{
+  display:flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  gap:1rem;
+  align-items:center;
+  font-size: 10px;
+  width:17rem;
+  margin-left:4rem;
+ 
+  
+  
+}
+
+
+
+#github__btn,
+#livedemo__btn{
+  background:var(--color-primary);
+  border-radius: 4px;
+  border:none;
+  outline:none;
+  padding:0.3rem;
+ 
+  
+}
+
+
+.portfolio__img{
+  width:14rem;
+  height:10rem;
+  border-radius: 2rem;
+  
+ 
+}
+
+.portfolio__h1{
+   top:-4rem;
+  margin-top:0;
+  left:-3rem;
+}
+
+
+

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root{
+  --transition: all 400ms ease;
+  --color-white: #fff;
+  --color-bg:#1f1f38;
+  --color-bg-variant:#2c2c6c;
+  --color-primary-variant:rgba(77 181 255 0.4);
+  --color-primary:#4db5ff;
+  --color-light:rgba(255 255 255 0.6);
+  
+  
+  --container-width-lg:75%;
+  --container-width-md:86%;
+  --container-width-sm:90%;
+  
+  
+  
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  
+}
+
+
+body{
+  background: var(--color-bg);
+font-family: 'Poppins', sans-serif;
+  color: var(--color-white);
+  background-image: url(./Components/Assets/bg-texture.png);
+  line-height: 1.7;
+}
+
+
+:-webkit-scrollbar{
+  display: none;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+/*=============GENERAL STYLE=============*/
+
+.container{
+  width: var(--container-width-lg);
+  margin: 0 auto;
+  position:relative;
+  
+  
+}
+h1,h2,h3,h4,h5{
+  font-weight: 500;
+}
+
+
+.btn{
+  background-color: var(--color-bg);
+  color:var(--color-primary);
+  width: max-content;
+  border-radius: 0.4rem;
+  border: 2px solid var(--color-primary);
+  padding: 0.5rem 1rem;
+  transition: var(--transition);
+}
+.btn-primary{
+  background:var(--color-primary);
+  color:var(--color-primary-variant);
+  border-radius: 0.4rem;
+  padding: 0.5rem 1rem;
+  transition: all 400ms ease;
+  
+}
+section{
+  height:100vh;
+}
+a{
+  transition:var(--transition) ;
+}
